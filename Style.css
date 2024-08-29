@@ -1,0 +1,594 @@
+/*-===============font link part start ==============-*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/*----------------font link part end------------------*/
+/*------===========common css start======--------*/
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    max-width: 100%;
+    vertical-align: 'middle';
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.clr{
+    clear: both;
+}
+/*------========= Common css end========--------*/
+/*------===========main menu css start======--------*/
+#main_menu{
+    width: 100%;
+    height: 90px;
+    background:black;
+
+}
+.menu_row{
+    line-height: 90px;
+
+}
+.menu_row .logo_col img{
+    width: 100px;
+    height: 25px;
+}
+.logo_col{
+    width: 30%;
+    float: left;
+
+}
+.menu_text_col{
+    width: 70%;
+    float: left;
+
+}
+.menu_text_col ul {
+    float: right;
+
+}
+.menu_text_col ul li{
+    float: left;
+}
+.menu_text_col ul li a{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color:#f5f5f5;
+    margin-left: 43px;
+    text-transform: uppercase;
+    transition: all linear .3s;
+    position: relative;
+}
+.menu_text_col ul li a:hover{
+    color: #28b8d8;
+}
+.menu_text_col ul li a::after{
+    content: '';
+    position: absolute;
+    top: 60%;
+    left: 0;
+    width: 0;
+    height:3px;
+    background: #f5f5f5;
+    transition: all linear .3s;
+   
+}
+.menu_text_col ul li a:hover::after{
+    width: 100%;
+
+}
+/*------===========main menu css end======--------*/
+
+/*--------==========banner css start==========------*/
+#banner{
+    background: url('../Images/banner_bg.png');
+    padding-top: 241px;
+    padding-bottom: 252px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner_text h1{
+    font-size: 50px;
+    font-weight: 700;
+    color:#ffff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+.banner_text h2{
+    font-size: 40px;
+    font-weight: 300;
+    color:#ffff;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    margin-top: 21px;
+    margin-bottom: 20px;
+}
+.banner_text p{
+    font-size: 14px;
+    font-weight: 300;
+    color: #ffff;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+}
+/*-----------------banner css end---------------*/
+/*-----------------about css start--------*/
+#about_part{
+    padding-top: 81px;
+    padding-bottom: 83px;  
+    background: #f9f9f9;  
+}
+.about_head h2{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    color: #444444;
+    text-align: center;   
+}
+.about_head p{
+    padding-top: 24px;
+    padding-bottom: 78px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #666666;
+    text-align: center;
+}
+.about_head h3{
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color: #444444;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.services_col{
+    width: 370px;
+    padding: 15px;
+    background: #ffff;
+    border: 1px solid #e3e3e3;
+    float: left;
+    margin-right: 30px;
+}
+.services_col .services_text h4{
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color: #444444;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 23px; 
+}
+.services_col .services_text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color:#666666;
+    text-align: center;
+}
+.services_col{
+    width: 370px;
+    padding: 15px;
+    background: #ffff;
+    border: 1px solid #e3e3e3;
+    
+}
+.services_col .services_text h4{
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color: #444444;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 23px; 
+}
+.services_col .services_text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color:#666666;
+    text-align: center;
+}
+.services_col{
+    width: 370px;
+    padding: 15px;
+    background: #ffff;
+    border: 1px solid #e3e3e3;
+    
+
+}
+.services_col .services_text h4{
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color: #444444;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 23px; 
+}
+.services_col .services_text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color:#666666;
+    text-align: center;
+}
+.services_row .services_col:nth-child(3){
+    margin-right: 0;
+}
+/*----------------- about css end--------*/
+/*-----------------instra css start--------*/
+#instra{
+    padding-top: 51px;
+    padding-bottom: 50px;
+    
+    background: #2c2c2c;
+}
+.instra_shorts h2{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    color:#d5d5d5;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    transition: all linear .3s;
+}
+.instra_shorts h2::before{
+    content: '';
+    width: 100px;
+    height: 1px;
+    background:#535353;
+    position: absolute;
+    left: 30%;   
+    top: 51%;
+}
+.instra_shorts h2::after{
+    content: '';
+    width: 100px;
+    height: 1px;
+    background:#535353;
+    position: absolute;
+    right: 30%;   
+    top: 50%;
+    
+}
+.instra_shorts h2:hover{
+    color:#28b8d8;
+}
+.instra_img_row{
+    margin-top: 44px;
+    margin-bottom: 60px;
+}
+.instra_img_col{
+    float: left;
+}
+.instra_img_col img{
+    width:420px;
+}
+.instra_button {
+    text-align: center;
+    
+}
+.instra_button a{
+    width: 177px;
+    height: 48px;
+    background: transparent;
+    border: 1px solid #797979;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #797979;
+    line-height: 48px;
+    text-transform: uppercase;
+    transition: all linear .3s;
+}
+.instra_button a:hover{
+    background: #797979;
+    color: #2c2c2c;
+}
+
+/*-----------------instra css end----------*/
+/* ========= Journal Part Start ========== */
+#journal{
+    width: 100%;
+    padding-top: 78px;
+}
+.common_heading h3{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif ;
+    color: #444444;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    transition: all linear .3s;
+
+}
+.common_heading h3:hover{
+    color: #28b8d8;
+}
+.common_heading h3::before{
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #444444;
+    position: absolute;
+    top: 50%;
+    left: 31%;
+    transition: all linear .3s;
+
+}
+.common_heading h3:hover::before{
+    background: #28b8d8;
+}
+
+.common_heading h3::after{
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: #444444;
+    position: absolute;
+    top: 50%;
+    right: 31%;
+    transition: all linear .3s;
+}
+.common_heading h3:hover::after{
+    background: #28b8d8;
+}
+
+
+
+.journal_img_row{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 84px;
+}
+.journal_img_col{
+    width: 370px;
+    background: #ffff;
+    border: 1px solid #a6a6a6;
+    padding-top: 27px;
+    padding-bottom: 15px;
+    float: left;
+    margin-right: 30px;
+}
+.journal_img_row .journal_img_col:nth-child(3){
+    margin-right: 0;
+}
+.journal_img_tittle h3{
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    color: #444444;
+    text-align: center;
+}
+.journal_img_tittle p{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif ;
+    font-weight: 400;
+    color: #999999;
+    text-align: center;
+    padding-top: 13px;
+    padding-bottom: 25px;
+}
+.journal_img img{
+    width: 370px;
+}
+.journal_bottom_text{
+    width: 370px;
+    padding: 27px;
+}
+.journal_bottom_text h4{
+    color: #666666;
+    font-weight: 400;
+    font-family:  'Roboto', sans-serif  ;
+    font-size: 14px;
+    text-align: justify;
+}
+.journal_bottom_text a{
+    color: #999999;
+    font-weight: 400;
+    font-family:  'Roboto', sans-serif  ;
+    font-size: 11px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 30px;
+    position: relative;
+    transition: 0.2s all linear;
+}
+.journal_bottom_text a:hover{
+    color: black;
+}
+.journal_bottom_text a:after{
+    content: ' ';
+    height: 1px;
+    width: 100%;
+    background: #28b8d8;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+.journal_bottom_text p{
+    color: #999999;
+    font-weight: 400;
+    font-family:  'Roboto', sans-serif  ;
+    font-size: 11px;
+    text-align: right;
+    padding-top: 30px;
+    float: right;
+    text-decoration: none;
+}
+/* ------------ Journal Part End ------------- */
+/* ==================== services part start =============== */
+
+.services_head h2{ 
+    font-size: 18px;
+    font-weight: 700;
+    font-family:  'Roboto', sans-serif  ;
+    color: #444444;
+    text-transform: uppercase;
+    position: relative  ;
+    margin-bottom: 30px;
+}
+.services_head h2::after{
+    content: '';
+    width:100px;
+    height: 1px;
+    background: #d9d9d9;
+    position: absolute;
+    top: 50%;
+    left: 180px;
+    text-transform: uppercase;
+}
+.service_col_one{
+    float: left;
+}
+.about_image{
+    float: left;
+}
+.service_about_text{
+    float: left;
+    padding-left: 27px;
+}
+.service_about_text p{
+    width: 340px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+}
+.service_about_text p span{
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    color: #666666;
+    margin-bottom: 23px;
+    display: inline-block;
+}
+.service_col_two{
+    float: left;
+    padding-left: 43px;
+}
+.service_col_two .services_head h2::after{
+    left: 120px;
+}
+.icon_col{
+    float:  left;
+}
+.icon_col img{
+    width: 40px;
+}
+.sercive_icon_text{
+    float: left;
+    padding-left: 24px;
+}
+.sercive_icon_text h2{
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color: #444444;
+}
+.sercive_icon_text p{
+    width: 458px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family:  'Roboto', sans-serif  ;
+    color: #666666;
+
+    margin-bottom: 27px;
+}
+/* -------------------- services part end -------------------- */
+#footer{
+    padding-top: 68px;
+    background: #373737;
+}
+.footer_col{
+    float: left;
+    margin-right: 45px;
+}
+.footer_col .footer_head h2{
+    font-size: 16px;
+    font-weight: 700px;
+    font-family:  'Roboto', sans-serif  ;
+    color: white;
+}
+.footer_col .footer_text p{
+    width: 255px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family:  'Roboto', sans-serif  ;
+    color: #cacaca;
+    margin-top: 25px;
+}
+.footer_data ul{
+    margin-top: 34px;
+}
+.footer_data ul li{
+    margin-top: 13px;
+}
+.footer_data ul li a{
+    font-size: 14px;
+    font-weight: 400;
+    font-family:  'Roboto', sans-serif  ;
+    color: #cacaca;
+}
+.footer_data ul li a  .footer_span_2{
+    display: block;
+    margin-left: 30px;
+    margin-top: 12px;
+}
+.footer_span_1{
+    margin-right: 15px;
+}
+.footer_text  .footer_text_p{
+    width:220px ;
+}
+.footer_text  .footer_text_p span{
+        display: block;
+        font-size: 12px;
+        color: #929292;
+        margin-top: 13px;
+}
+.footer_text ul li {
+    margin-bottom: 34px;
+}
+.footer_row :nth-child(4){
+    margin-right: 0;
+}
+
+.copyright{
+    width: 100% ;
+    height: 91px;
+    background: #333333;
+}
+
+.copyright_text p{
+    line-height: 91px;
+    color: #cacaca;
+    font-size: 14px;
+    font-weight: 400px;
+    font-family:  'Roboto', sans-serif  ;
+
+
+}
+
